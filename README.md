@@ -6,10 +6,12 @@ As one of my first passion projects, with this application my goal was to create
 **Version one** of this app was built to operate entirely on the front-end with React. This version includes a basic search feature for locating a singular NPC information card by character name. Cards include character images, names, bios, pronouns, birthdays, addresses, and recommended gifts as well as external links to the Stardew Valley Wiki.
 
 ## v1 preview:
-Version One: Home
+**Version One: Home View**
+
 ![Home preview](https://github.com/rebeccaariss/stardew-singles/blob/main/src/images/Preview/Home.png)
 
-Version One: Search Feature
+**Version One: Search Feature View**
+
 ![Search preview](https://github.com/rebeccaariss/stardew-singles/blob/main/src/images/Preview/Search.png)
 
 
