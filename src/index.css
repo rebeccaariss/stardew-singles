@@ -1,0 +1,56 @@
+/* #### Title font sourced from: https://www.onlinewebfonts.com/package/Stardew_Valley */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Lato:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Stardew Valley';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Stardew Valley'), url('./containers/StardewValleyAllCaps.woff') format('woff');
+}
+
+h1 {
+    font-family: 'Stardew Valley';
+    font-weight: 200;
+    color: rgb(110, 83, 96);
+}
+
+#nav,
+#card,
+#description {
+    font-family: 'Lato', sans-serif;
+}
+
+#card {
+    font-family: 'Lato', sans-serif;
+    height: 500px;
+    width: 400px;
+}
+
+#love,
+#coffee {
+    height: 1em;
+}
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    font-family: sans-serif;
+    background: linear-gradient(to left, rgba(254, 199, 202, 255) 0%, rgba(237, 231, 249, 255) 100%);
+    background-image: url("https://staticdelivery.nexusmods.com/mods/1303/images/7416/7416-1609353967-1156600452.png");
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(251, 207, 213, 0.85);
+    /* last number value changed from 255; opacity ranges from 
+    0.0-1.0 (complete transparency to no transparency) */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
