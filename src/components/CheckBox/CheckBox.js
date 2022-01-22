@@ -10,7 +10,7 @@ const CheckBox = ({ gender, preferenceSelection }) => {
                 onChange={preferenceSelection} 
                 checked
             />
-            <label for={gender}> {gender}</label>
+            <label htmlFor={gender}> {gender}</label>
         </div>
     )
 }

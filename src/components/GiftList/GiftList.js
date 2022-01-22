@@ -7,8 +7,8 @@ const GiftList = ({ gifts }) => {
                 {
                     gifts.map((gift, i) => {
                         return (
-                            <li>
-                                <a href={gift.link} class="link blue hover-dark-blue" target="_blank" rel="noreferrer">{gift.item}</a>
+                            <li key={i}>
+                                <a href={gift.link} className="link blue hover-dark-blue" target="_blank" rel="noreferrer">{gift.item}</a>
                             </li>
                         )
                     })

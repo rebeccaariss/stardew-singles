@@ -3,9 +3,9 @@ import GiftList from '../GiftList/GiftList';
 import UserImages from '../UserImages/UserImages';
 import Scroll from '../Scroll/Scroll';
 
-const Card = ({ key, name, bio, gender, pronouns, birthday, location, link, loves, likes }) => {
+const Card = ({ name, bio, gender, pronouns, birthday, location, link, loves, likes }) => {
     return (
-        <div className='tl bg-white dib br3 pa3 ma2 grow bw2 shadow-5 o-80' name={name} id="card">
+        <div className='tl bg-white dib br3 pa3 ma2 grow bw2 shadow-5 o-80' name={name} id='card'>
             <Scroll>
             <div>
                 <UserImages name={name} />
