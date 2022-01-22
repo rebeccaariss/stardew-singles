@@ -8,7 +8,7 @@ const CheckBox = ({ gender, preferenceSelection }) => {
                 id={gender} 
                 name={gender} 
                 onChange={preferenceSelection} 
-                checked
+                defaultChecked='true'
             />
             <label htmlFor={gender}> {gender}</label>
         </div>
