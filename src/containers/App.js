@@ -53,16 +53,16 @@ class App extends Component {
             <div className='tc'>
                 <header>
                   <h1 className='f-subheadline ma4'>Stardew Valley Singles</h1>
-                  <div id="description">
+                  <div id='description'>
                     <p>Tired of trying to remember which gifts will win you hearts in Stardew Valley? Having trouble choosing your future in-game spouse? Look no further.</p>
-                    <p>Keep this app open while you play for a more streamlined dating experience! <img id="love" src="https://stardewcommunitywiki.com/mediawiki/images/0/04/HeartIconLarge.png" alt="love" /></p>
-                    {/* <p className="i">Click the links to open their corresponding Stardew Valley Wiki pages in a new tab.</p> */}
+                    <p>Keep this app open while you play for a more streamlined dating experience! <img id='love' src='https://stardewcommunitywiki.com/mediawiki/images/0/04/HeartIconLarge.png' alt='love' /></p>
+                    {/* <p className='i'>Click the links to open their corresponding Stardew Valley Wiki pages in a new tab.</p> */}
                   </div>
-                  <div id="nav" className="flex justify-center items-center">
+                  <div id='nav' className='flex justify-center items-center'>
                   <SearchBox searchChange={this.onSearchChange} />
-                  <div className="flex items-center">
-                    <CheckBox gender="Women" preferenceSelection={this.onPreferenceSelection}  />
-                    <CheckBox gender="Men" preferenceSelection={this.onPreferenceSelection} />
+                  <div className='flex items-center'>
+                    <CheckBox gender='Women' preferenceSelection={this.onPreferenceSelection}  />
+                    <CheckBox gender='Men' preferenceSelection={this.onPreferenceSelection} />
                   </div>
                 </div>
                 </header>
@@ -71,7 +71,7 @@ class App extends Component {
                 </Scroll>
                 <footer>
                   <p> 
-                    Made with <img id="love" src="https://stardewcommunitywiki.com/mediawiki/images/0/04/HeartIconLarge.png" alt="love" /> and <img id="coffee" src="https://stardewcommunitywiki.com/mediawiki/images/e/e9/Coffee.png" alt="coffee" height="" width="" /> by <a className="link blue hover-dark-blue" target="_blank" rel="noreferrer" href="https://github.com/rebeccaariss">Rebecca Ariss</a> | Stardew Valley font @ <a className="link blue hover-dark-blue" target="_blank" rel="noreferrer" href="http://www.onlinewebfonts.com/download/1b1432fe0f6a48c9122c20f307e6737d">Online Web Fonts</a>
+                    Made with <img id='love' src='https://stardewcommunitywiki.com/mediawiki/images/0/04/HeartIconLarge.png' alt='love' /> and <img id='coffee' src='https://stardewcommunitywiki.com/mediawiki/images/e/e9/Coffee.png' alt='coffee' height='' width='' /> by <a className='link blue hover-dark-blue' target='_blank' rel='noreferrer' href='https://github.com/rebeccaariss'>Rebecca Ariss</a> | Stardew Valley font @ <a className='link blue hover-dark-blue' target='_blank' rel='noreferrer' href='http://www.onlinewebfonts.com/download/1b1432fe0f6a48c9122c20f307e6737d'>Online Web Fonts</a>
                   </p>
                 </footer>
             </div>

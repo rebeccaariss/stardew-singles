@@ -4,7 +4,7 @@ const CheckBox = ({ gender, preferenceSelection }) => {
     return (
         <div>
             <input 
-                type="checkbox" 
+                type='checkbox' 
                 id={gender} 
                 name={gender} 
                 onChange={preferenceSelection} 

@@ -19,7 +19,7 @@ const Card = ({ name, bio, gender, pronouns, birthday, location, link, loves, li
                 <h3>Birthday</h3>
                 <p>{birthday}</p>
                 <h3>Address</h3>
-                <p><a className="link blue hover-dark-blue" href={link} target="_blank" rel="noreferrer">{location}</a></p>
+                <p><a className='link blue hover-dark-blue' href={link} target='_blank' rel='noreferrer'>{location}</a></p>
                 <h3>Best Gifts (Loves)</h3>
                     <GiftList gifts={loves} />
                 <h3>Other Gifts (Likes)</h3>
