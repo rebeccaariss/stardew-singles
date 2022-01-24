@@ -1,4 +1,6 @@
-# stardew-singles
+# stardew-singles (WIP)
+*This app is currently in development.*
+
 Full and interactive list of marriageable NPCs from indie game [Stardew Valley](https://stardewvalleywiki.com/Stardew_Valley_Wiki) (including all of the relevant character info). Designed to make the in-game dating experience frictionless and fun!
 
 As one of my first passion projects, with this application my goal was to create the guide I've always wanted to enrich my Stardew Valley gaming experience. I wanted to consolidate all the NPC dating-related information into one centralized location as opposed to endlessly and repetitively clicking through Wiki pages to find the information I needed. [Wiki races](https://en.wikipedia.org/wiki/Wikipedia:Wikirace) are fun and all, but that's a different game entirely. 🤓
