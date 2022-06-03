@@ -12,12 +12,16 @@ class App extends Component {
     super()
     this.state = {
       candidates: [],
-      searchfield: ''
-    }
+      searchfield: '',
+      women: true,
+      men: true
+    };
+    this.onPreferenceSelection = this.onPreferenceSelection.bind(this);
   }
 
   componentDidMount() {
     this.setState({ candidates: datingpool })
+    console.log(this.state)
   }
 
   onSearchChange = (event) => {
@@ -27,7 +31,20 @@ class App extends Component {
 }
 
   onPreferenceSelection = (event) => {
-    console.log(event.target.value)
+    if (event.target.id === "Women" && event.target.CheckBox === false) {
+      this.setState({women: false})
+      console.log("women:", this.state.women, "men:", this.state.men)
+    } else if (event.target.id === "Men" && event.target.CheckBox === false) {
+      this.setState({men: false})
+      console.log("women:", this.state.women, "men:", this.state.men)
+    } else if (event.target.id === "Women" && event.target.CheckBox === true) {
+      this.setState({women: true})
+      console.log("women:", this.state.women, "men:", this.state.men)
+    } else if (event.target.id === "Men" && event.target.CheckBox === true) {
+      this.setState({men: true})
+      console.log("women:", this.state.women, "men:", this.state.men)
+    }
+    console.log("women:", this.state.women, "men:", this.state.men)
   }
 
   // findCharacterImages = ({ name }) => {

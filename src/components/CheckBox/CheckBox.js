@@ -6,7 +6,7 @@ const CheckBox = ({ gender, preferenceSelection }) => {
             <input 
                 type='checkbox' 
                 id={gender} 
-                name={gender} 
+                name='gender' 
                 onChange={preferenceSelection} 
                 defaultChecked='true'
             />
